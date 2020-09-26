@@ -15,6 +15,7 @@ $httpClient.get(objNiuReq,function(err, resp, data) {
 	$notification.post("NIU ERROR","",err);
   } 
   else {
+  	const objNiuData = JSON.parse(data)
 	const intNiuBatteryLevel = objNiuData["data"]["batteries"]["compartmentA"]["batteryCharging"]
 	const intNiuEstMileage   = objNiuData["data"]["estimatedMileage"]
 	const blnNiuCharging     = objNiuData["data"]["isCharging"]
