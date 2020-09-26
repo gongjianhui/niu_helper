@@ -1,5 +1,6 @@
 # niu_helper
 A Surge script to check NIU scooter's battery level and mileage data.
+[中文](https://github.com/gongjianhui/niu_helper/blob/master/README-zh_Hans.md)
 
 ## WARNING: Use At Your Own Risk
 I haven't tested the script yet cause I don't have a NIU scooter.
