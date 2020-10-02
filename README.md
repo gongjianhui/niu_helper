@@ -7,7 +7,7 @@ I haven't tested the script yet cause I don't have a NIU scooter.
 
 ## Usage
 1. Get your SN from the app.
-2. Get the token by MITM attack the app's traffic.
+2. Get the token by MITM attacking the app's traffic.
 3. Fill your SN and token in the niu.js file.
 4. Add the script to your Surge configuration.
 
